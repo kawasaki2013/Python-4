@@ -1,0 +1,48 @@
+a = "Python class 4"
+b = "Pycharm & Pythoniest Bpo1"
+
+print(b[9::],a[7::])
+
+#print(b[9::],'',a[7::])
+
+
+'''
+Now output is two line first line Output: Pycharm 16.2'
+And Second line Output: Pythoniest Bpo1 Class 4 Team
+'''
+
+a = 4
+b = "Pycharm & Pythoniest Bpo1 Team "
+c = 16.2
+
+print(b[0:7],c)
+
+print(b[10:25],'Class',a,b[26::])
+
+--------------list----------------------------
+
+a = []
+
+b = list()
+
+true = 'This is True'
+
+c = [1,2,3,4,['a','b','c','d'],True,true] # '4'
+
+#c[1]="Noyon" # edit value
+
+c[1]=['Jibon','12',13]
+
+print(c[1][0])
+
+#print(c)
+
+#print(c[4][-1]) # output d
+
+#print (c[3]+c[1][1]) #add c 4 vale and c[1] 12 vale output :16
+
+print (c[3],c[1][1])
+
+
+
+
